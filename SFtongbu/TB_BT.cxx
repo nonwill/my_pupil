@@ -32,8 +32,8 @@ void exercise_tb_bt()
             int ac = a * 10 + (10 - b);
             tb_bt_list.push_back(TB_BT(ab, ac));
             int ba = b * 10 + a;
-            int da = (10 - b) * 10 + a;
-            tb_bt_list.push_back(TB_BT(ba, da));
+            int ca = (10 - b) * 10 + a;
+            tb_bt_list.push_back(TB_BT(ba, ca));
         }
     }
 
